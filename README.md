@@ -33,3 +33,15 @@ We want to get a dataframe with all games with columns:
 * After all data is collected (and it **takes a few hours** - a bit more than 15 in my laptop), all dataframes in the `pages` dictionary are concatenated to create a single one with all game data.
 * The dataframe is export to a csv file.
 * I enjoy the awesome new dataset and all I can do with it!
+
+# Basic EDA and data cleaning
+
+This can be found on the notebook `project-Games-Cleaning-and-EDA.ipynb`.
+
+# Content-based Recommender system
+
+This can be found on the notebook `project-Games-Recommender.ipynb`
+
+# Dashboard for data exploration and recommender
+
+Inside the `Dashboard` folder, there is a script named `games-dash.py` file for the creation of a multi-page dashboard using **Dash**. This dashboard uses most of the information in the EDA notebook and a simplified version of the content-based recommender (using only the top 1000 games ranked by meta score).
