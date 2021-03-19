@@ -47,3 +47,6 @@ This can be found on the notebook `project-Games-Recommender.ipynb`
 Inside the `Dashboard` folder, there is a script named `games-dash.py` file for the creation of a multi-page dashboard using **Dash**. This dashboard uses most of the information in the EDA notebook and a simplified version of the content-based recommender (using only the top 1000 games ranked by meta score).
 
 Click [here](https://games-dash.herokuapp.com/) to access the deployed dashboard.
+
+![image](dash-visual.gif)
+*Example usage of dash app.*
